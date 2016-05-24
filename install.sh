@@ -1,8 +1,9 @@
 #!/bin/bash
 
+sudo -v
+
 # setup
 
-sudo -v
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && brew update
 
@@ -30,11 +31,16 @@ do
 	brew install $cask
 done
 
+# change shell
+echo /usr/local/bin/bash | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/bash
+
 #  copy things around
 
-cp -r "dotfiles/". "$HOME/DOTFILES"
+cp -r "dotfiles/". "$HOME/"
 cp -r "app-settings/Application Support/Sublime Text 3/". "$HOME/Library/Application Support/Sublime Text 3"
 
 # fonts from dropbox
 
+cp 
 # ln -s $HOME/Dropbox/Fonts $HOME/Library/Fonts
