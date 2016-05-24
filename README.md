@@ -2,7 +2,11 @@
 FOR FRESH OSX INSTALLS.
 
 ## apps
+* Xcode CLT
+* brew
 * ST3 + packages
+
+
 
 ## dotfiles
 * My .bash_profile and .bashrc
@@ -10,4 +14,4 @@ FOR FRESH OSX INSTALLS.
 
 ## Todo:
 
-* Installation script
+* Improved installation script
