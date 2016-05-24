@@ -42,5 +42,5 @@ cp -r "app-settings/Application Support/Sublime Text 3/". "$HOME/Library/Applica
 
 # fonts from dropbox
 
-cp 
+cp "files/Inconsolata-dz.otf" "$HOME/Library/Fonts"
 # ln -s $HOME/Dropbox/Fonts $HOME/Library/Fonts
