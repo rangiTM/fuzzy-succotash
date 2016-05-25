@@ -11,20 +11,9 @@ export PS1="\[\e]2;\u@\H \w\a\e[32;1m\]$\[\e[0m\] "
 
 # aliases
 alias grep="ag"
-alias st2="open -a 'Sublime Text 2'"
-alias st="open -a 'Sublime Text'"
-alias p="pngquant"
 
-# prepend brew to PATH
-# export PATH=/usr/local/bin:$PATH
-
-# prepend postgresql to PATH
-# export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
-# export PGDATA=/usr/local/var/postgres
-
-# append to PATH
-# export PATH=$PATH:/usr/local/share/npm/bin
-# export PATH=$PATH:"/Users/Rangi/repos/Auxiliary\ Tools/PackageMaker.app/Contents/MacOS" 
+# brew cask options
+export HOMEBREW_CASK_OPTS="--appdir=/Applications" 
 
 # load NVM
 # [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh

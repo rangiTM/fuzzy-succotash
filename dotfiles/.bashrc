@@ -1,5 +1,3 @@
-# for autocd to work, add /usr/local/bin/bash to /etc/shells
-# then chsh -s /usr/local/bin/bash
 # autocd
 shopt -s autocd
 

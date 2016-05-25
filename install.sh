@@ -9,6 +9,9 @@ xcode-select --install
 
 # brew
 
+# symlink to /Applications not ~/Applications
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 KEGS="
 ag
 bash
