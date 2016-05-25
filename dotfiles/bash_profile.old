@@ -1,0 +1,10 @@
+# prepend brew to PATH
+# export PATH=/usr/local/bin:$PATH
+
+# prepend postgresql to PATH
+# export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
+# export PGDATA=/usr/local/var/postgres
+
+# append to PATH
+# export PATH=$PATH:/usr/local/share/npm/bin
+# export PATH=$PATH:"/Users/Rangi/repos/Auxiliary\ Tools/PackageMaker.app/Contents/MacOS" 
