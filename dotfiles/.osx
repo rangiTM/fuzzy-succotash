@@ -1,0 +1,36 @@
+#!/bin/sh
+# from https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+# from https://gist.github.com/brandonb927/3195465
+sudo -v
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain NSTextShowsControlCharacters -bool true
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Display Enabled" -bool false
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write com.apple.finder ShowStatusBar -bool true
+defaults write com.apple.finder ShowPathbar -bool true
+defaults write com.apple.dock dashboard-in-overlay -bool true
+defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+defaults write com.apple.Safari ShowFavoritesBar -bool false
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+defaults write NSGlobalDomain AppleFontSmoothing -int 2
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+# defaults write com.apple.dock persistent - apps - array
+defaults write com.apple.dock tilesize -int 64
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.terminal StringEncodings -array
+killall Dock
+killall Finder
