@@ -41,7 +41,9 @@ chsh -s /usr/local/bin/bash
 #  copy things around
 
 cp -r "dotfiles/". "$HOME/"
-cp -r "app-settings/Application Support/Sublime Text 3/". "$HOME/Library/Application Support/Sublime Text 3"
+
+# FIX ST3 packages copying
+# cp -r "app-settings/Application Support/Sublime Text 3/". "$HOME/Library/Application Support/Sublime Text 3"
 
 # fonts from dropbox
 
