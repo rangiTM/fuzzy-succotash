@@ -4,12 +4,15 @@ sudo -v
 
 # setup
 
-xcode-select --install
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && brew update
+# no need to install command line tools if you can use git or ruby
+# xcode-select --install
+
+#install brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # brew
 
-# symlink to /Applications not ~/Applications
+# symlink casks to /Applications not ~/Applications
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 KEGS="
