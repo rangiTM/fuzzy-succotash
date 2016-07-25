@@ -18,6 +18,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 KEGS="
 ag
 bash
+thefuck
 "
 
 for keg in $KEGS

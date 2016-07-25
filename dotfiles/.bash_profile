@@ -32,11 +32,8 @@ fi
 # aliases
 alias grep="ag"
 alias plz="sudo"
-alias l="ls -aeFGhlO@"
-alias ls="ls -aFG"
-
-
-
+alias l="ls -aeGhlO@"
+alias ls="ls -aG"
 
 # $ prompt
 export PS1="\[\e]2;\u@\H \w\a\e[32;1m\]$\[\e[0m\] "
