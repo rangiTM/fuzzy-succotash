@@ -1,3 +1,5 @@
+# http://mah.everybody.org/docs/ssh
+
 SSH_ENV="$HOME/.ssh/environment"
 
 function start_agent {
@@ -42,17 +44,7 @@ alias ls="ls -aG"
 # http://www.ibm.com/developerworks/library/l-tip-prompt/
 export PS1="\[\e]2;\u@\H \w\a\e[32;1m\]\$ \[\e[0m\]"
 
-# http://unix.stackexchange.com/a/104026
-
-function settitle () {
-    export PREV_COMMAND=${PREV_COMMAND}${@}
-    echo -ne "\033]0;${PREV_COMMAND}\007"
-    export PREV_COMMAND=${PREV_COMMAND}' | '
-}
-
-export PROMPT_COMMAND=${PROMPT_COMMAND}';export PREV_COMMAND=""'
-
-trap 'settitle "$BASH_COMMAND"' DEBUG
+# http://unix.stackexchange.com/a/104026 (this was cool but breaks over ssh)
 
 # nano for default editor
 export EDITOR="nano"

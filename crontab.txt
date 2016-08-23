@@ -1,5 +1,0 @@
-MAILTO=rangi@carterwittmedia.com
-SHELL=/usr/local/bin/bash 
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin 
-@daily /Users/rangi/Dropbox/cwm2016/nm-jp/nagmag.jp/trellis/./migrate.sh
-@daily /Users/rangi/osx/update.sh
