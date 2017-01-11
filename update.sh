@@ -2,7 +2,7 @@
 
 source ~/.keychain/$COMPUTER_NAME.local-sh
 
-pushd $HOME/repos/osx > /dev/null
+pushd $CWD > /dev/null
 
 git pull
 brew update && brew upgrade

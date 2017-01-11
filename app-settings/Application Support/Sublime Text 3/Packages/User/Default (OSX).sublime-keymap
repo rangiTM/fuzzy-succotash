@@ -1,3 +1,0 @@
-[
-{ "keys": ["shift+enter"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
-]

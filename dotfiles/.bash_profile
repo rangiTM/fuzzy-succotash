@@ -24,12 +24,12 @@ else
 fi
 
 # load keychain
-keychain ~/.ssh/id_rsa
+keychain -q ~/.ssh/id_rsa
 
 # Load .bashrc
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
-# bash-completion
+# bash completion
   if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
   fi
@@ -37,17 +37,14 @@ keychain ~/.ssh/id_rsa
 # aliases
 eval $(thefuck --alias)
 alias grep="ag"
-alias plz="sudo"
 alias l="ls -aeGhlO@"
 alias ls="ls -aG"
 
 # http://www.ibm.com/developerworks/library/l-tip-prompt/
-export PS1="\[\e]2;\u@\H \w\a\e[32;1m\]\$ \[\e[0m\]"
+export PS1="\[\e]2;\u@\H \w\a\e[32m\]\$ \[\e[0m\]"
 
-# http://unix.stackexchange.com/a/104026 (this was cool but breaks over ssh)
-
-# nano for default editor
-export EDITOR="nano"
+# st3 for default editor
+export EDITOR="subl"
 
 # brew cask options
 export HOMEBREW_CASK_OPTS="--appdir=/Applications" 
