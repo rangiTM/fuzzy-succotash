@@ -4,9 +4,6 @@ sudo -v
 
 # setup
 
-# no need to install command line tools if you can use git or ruby
-# xcode-select --install
-
 #install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -18,8 +15,14 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 KEGS="
 ag
 bash
+keychain
+nvm
+rbenv
 thefuck
+youtube-dl
+zsh
 "
+#'ffmpeg --with-fdk-aac'
 
 for keg in $KEGS
 do
@@ -29,9 +32,10 @@ done
 CASKS="
 Caskroom/cask/dropbox
 Caskroom/cask/firefox
-Caskroom/versions/sublime-text3
-Caskroom/cask/vlc    
+Caskroom/cask/sublime-text 
 "
+# Caskroom/cask/blender
+# Caskroom/cask/vlc
 
 for cask in $CASKS
 do
@@ -45,9 +49,6 @@ chsh -s /usr/local/bin/bash
 #  copy things around
 
 cp -r "dotfiles/". "$HOME/"
-
-# FIX ST3 packages copying
-# cp -r "app-settings/Application Support/Sublime Text 3/". "$HOME/Library/Application Support/Sublime Text 3"
 
 # fonts from dropbox
 
