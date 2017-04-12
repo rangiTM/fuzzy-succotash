@@ -131,3 +131,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # Load rbenv
 eval "$(rbenv init -)"
+
+BULLETTRAIN_NVM_BG="010"
+BULLETTRAIN_RUBY_BG="160"
+BULLETTRAIN_RUBY_PREFIX="♦"
+BULLETTRAIN_DIR_EXTENDED="0"
