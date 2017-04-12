@@ -19,13 +19,13 @@
 	<key>HideScrollbar</key>
 	<true/>
 	<key>HideTab</key>
-	<false/>
+	<true/>
 	<key>JobName</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Dropbox</string>
+	<string>~/repos/osx/files</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -63,11 +63,13 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>650 499 620 392 0 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>498 246 796 473 0 0 1920 1057 </string>
+	<string>1945 139 796 473 1920 0 1024 745 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>155 473 592 584 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>289 88 905 627 0 0 1920 1057 </string>
+	<string>576 333 970 588 0 0 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>247 107 970 696 0 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_16B63372-BCAA-4080-A620-E12C9527B3EB</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_16B63372-BCAA-4080-A620-E12C9527B3EB_selection</key>
@@ -303,7 +305,7 @@
 				<real>0.1118306964635849</real>
 			</dict>
 			<key>Background Image Location</key>
-			<string></string>
+			<string>/Users/rangi/repos/osx/files/fish cropped.jpg</string>
 			<key>Blink Allowed</key>
 			<true/>
 			<key>Blinking Cursor</key>
@@ -329,12 +331,16 @@
 			<string></string>
 			<key>Cursor Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.31372549019607843</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.69803921568627447</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.23529411764705882</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -346,7 +352,7 @@
 				<real>1</real>
 			</dict>
 			<key>Cursor Type</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
@@ -694,7 +700,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>20</integer>
+			<integer>24</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
@@ -763,12 +769,20 @@
 	</array>
 	<key>NoSyncInstallationId</key>
 	<string>587C369B-9C5A-4E41-B59F-71BFFB59DC9E</string>
+	<key>NoSyncLastTipTime</key>
+	<real>506249036.89852202</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
+	<integer>1</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>505803593.72832698</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
@@ -776,7 +790,7 @@
 	<key>PointerActions</key>
 	<dict/>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/rangi/Dropbox</string>
+	<string>/Users/rangi/repos/osx/files</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -786,17 +800,17 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-13T04:37:01Z</date>
+	<date>2017-01-16T04:43:02Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>TabStyle</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1484204288</real>
+	<real>1484556288</real>
 	<key>UseBorder</key>
 	<false/>
 	<key>WindowNumber</key>

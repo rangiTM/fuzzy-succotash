@@ -7,7 +7,7 @@ export ZSH=/Users/rangi/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="odin"
+ZSH_THEME="bullet-train"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -117,6 +117,7 @@ eval $(thefuck --alias)
 alias plz="sudo"
 alias l="ls -aeGhlO@"
 alias ls="ls -aG"
+alias ibook="ssh -p 22 cwm@iBook.local."
 
 # ST3 for default editor
 export EDITOR="subl"
