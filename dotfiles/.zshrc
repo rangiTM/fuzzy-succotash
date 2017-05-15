@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=/Users/rangi/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -127,7 +127,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # load NVM
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+. "$(brew --prefix nvm)/nvm.sh"
 
 # Load rbenv
 eval "$(rbenv init -)"
@@ -136,3 +136,6 @@ BULLETTRAIN_NVM_BG="010"
 BULLETTRAIN_RUBY_BG="160"
 BULLETTRAIN_RUBY_PREFIX="♦"
 BULLETTRAIN_DIR_EXTENDED="0"
+
+# correct locale for ssh
+export LC_CTYPE="UTF-8"
