@@ -53,23 +53,25 @@
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<key>NSUserKeyEquivalents</key>
 	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
+		<key>Copy</key>
+		<string>@$c</string>
+		<key>Paste</key>
+		<string>@$v</string>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1162 37 445 77 0 0 1920 1057 </string>
+	<string>360 110 854 465 0 0 1280 777 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>650 499 620 392 0 0 1920 1057 </string>
+	<string>330 289 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1945 139 796 473 1920 0 1024 745 </string>
+	<string>475 259 918 498 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
-	<string>155 473 592 584 0 0 1920 1057 </string>
+	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>576 333 970 588 0 0 1920 1057 </string>
+	<string>0 79 970 675 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>247 107 970 696 0 0 1920 1057 </string>
+	<string>102 188 890 507 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_16B63372-BCAA-4080-A620-E12C9527B3EB</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_16B63372-BCAA-4080-A620-E12C9527B3EB_selection</key>
@@ -688,11 +690,11 @@
 			<key>Name</key>
 			<string>Rangi</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 12</string>
+			<string>SauceCodePowerline-Light 20</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SourceHanCodeJP-Regular 18</string>
+			<string>SauceCodePowerline-Regular 20</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -767,22 +769,16 @@
 			<string>/Users/rangi</string>
 		</dict>
 	</array>
-	<key>NoSyncInstallationId</key>
-	<string>587C369B-9C5A-4E41-B59F-71BFFB59DC9E</string>
-	<key>NoSyncLastTipTime</key>
-	<real>506249036.89852202</real>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
 	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
 	<integer>1</integer>
+	<key>NoSyncInstallationId</key>
+	<string>BE30A1A7-3886-4E20-8EB2-4689D165D4DB</string>
 	<key>NoSyncPermissionToShowTip</key>
-	<true/>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>505803593.72832698</real>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-	</array>
+	<real>505998166.75075102</real>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
@@ -796,11 +792,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=1</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=75</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-16T04:43:02Z</date>
+	<date>2017-04-12T12:44:02Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -810,13 +806,13 @@
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1484556288</real>
+	<real>1492010368</real>
 	<key>UseBorder</key>
 	<false/>
 	<key>WindowNumber</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.10</string>
+	<string>3.0.15</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
